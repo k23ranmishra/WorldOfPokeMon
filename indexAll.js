@@ -2,6 +2,8 @@
 document.addEventListener("DOMContentLoaded", () =>{
 
     let generateBtn = document.querySelector('#generate-pokemon');
+
+	/////
     generateBtn.addEventListener('click', renderEverything)
 
 	getDeleteBtn().addEventListener('click', deleteEverything);
